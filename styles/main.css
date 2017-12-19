@@ -1,0 +1,41 @@
+body{
+	 background-color: #d6b0f7;
+	}
+	
+h1{
+	color:white;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	}
+	
+p{
+	text-align: center;
+	font-size: 17px;
+	
+	}
+
+a:link{
+	text-decoration: none;
+	color:#cd43fe;
+	}
+		
+a:visited{
+	color:#e949bb;
+	}
+	
+a:hover{
+	color:#cc00ff;
+	}
+	
+img.displayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+.boxed{
+	box-align: center;
+	border: 1px solid black;
+	
+
+	
+	
