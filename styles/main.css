@@ -1,35 +1,42 @@
 body{
 	 background-color: #d6b0f7;
 	}
-	
+
 h1{
 	color:white;
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
 	}
-	
+
 p{
 	text-align: center;
 	font-size: 17px;
-	
 	}
+
+canvas {
+	  margin: auto;
+	  top: 0;
+	  left: 0;
+	  position: absolute;
+	}
+
 
 a:link{
 	text-decoration: none;
 	color:#cd43fe;
 	}
-		
+
 a:visited{
 	color:#e949bb;
 	}
-	
+
 a:hover{
 	color:#cc00ff;
 	}
-	
+
 .boxed{
 	border: 2px dotted black;
-	padding-top:10px;	
+	padding-top:10px;
 	padding-left:180px;
 	padding-right:180px;
 	padding-bottom: 10px;
@@ -37,9 +44,3 @@ a:hover{
 	margin-right:60px;
 	margin-bottom:40px;
 }
-	
-
-	
-
-	
-	
