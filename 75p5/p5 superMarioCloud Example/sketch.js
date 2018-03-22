@@ -21,7 +21,7 @@ function draw() {
 //function move()
 function move() {
 	x = x + speed;
-	if (x >= width || x < -225) {
+	if (x >= width || x < -50) {
 		speed = -speed
 	}
 }
