@@ -35,6 +35,7 @@ function setup() {
 //draw
 
 function draw() {
+  clear();
   background(200);
   starMove();
   push();
