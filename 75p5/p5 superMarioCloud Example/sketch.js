@@ -3,7 +3,7 @@ let x = 0;
 let speed = -5;
 
 function preload() {
-	clouds = loadImage('/assets/superMarioClouds_0.png');
+	clouds = loadImage('assets/superMarioClouds_0.png');
 }
 
 function setup() {
