@@ -1,4 +1,6 @@
-
+let star;
+let x = 0;
+let speed = -5;
 
 // Position Variables
 
