@@ -16,7 +16,6 @@ function draw() {
 	background(200);
 	image(clouds, x, 10, clouds.width / 2, clouds.height / 2)
 	move();
-	image(hand, x, 220, handwidth / 1.5, hand.height / 1.5);
 }
 
 
