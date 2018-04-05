@@ -3,8 +3,7 @@ let x = 0;
 let speed = -5;
 
 function preload() {
-	clouds = loadImage('assets/cloud.png');
-	hand = loadImage ('assets/hand.png');
+	clouds = loadImage('assets/clouds.png');
 }
 
 function setup() {
