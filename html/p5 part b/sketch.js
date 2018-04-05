@@ -7,8 +7,8 @@ function preload() {
 }
 
 function setup() {
-		createCanvas(500, 500);
-
+	createCanvas(500, 500);
+	console.log(clouds.width/2);
 }
 
 function draw() {
@@ -21,7 +21,7 @@ function draw() {
 //function move()
 function move() {
 	x = x + speed;
-	if (x >= width || x < -30) {
+	if (x >= width || x < -50) {
 		speed = -speed
 	}
 }
