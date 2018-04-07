@@ -2,13 +2,12 @@ let clouds;
 let x = 0;
 let speed = -5;
 
-let hands;
-let x = 240;
-let y = 430;
 
 function preload() {
-	clouds = loadImage('assets/clouds.png');
-	hands = loadImage ('assets/hand.png');
+	clouds = loadImage("assets/clouds.png");
+	PImage b;
+	b = loadImage("assets/hand.png");
+	image(b, 240, 430);
 }
 
 function setup() {
