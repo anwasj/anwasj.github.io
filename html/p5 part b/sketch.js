@@ -2,12 +2,8 @@ let clouds;
 let x = 0;
 let speed = -5;
 
-
 function preload() {
-	clouds = loadImage("assets/clouds.png");
-	PImage b;
-	b = loadImage("assets/hand.png");
-	image(b, 240, 430);
+	clouds = loadImage('assets/superMarioClouds_0.png');
 }
 
 function setup() {
