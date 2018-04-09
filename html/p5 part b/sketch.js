@@ -5,6 +5,9 @@ let speed = -5;
 
 function preload() {
 	clouds = loadImage("assets/clouds.png");
+	PImage b;
+	b = loadImage("assets/hand.png");
+	image(b, 240, 430);
 }
 
 function setup() {
