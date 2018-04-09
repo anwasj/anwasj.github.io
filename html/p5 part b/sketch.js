@@ -1,9 +1,11 @@
 let clouds;
 let x = 0;
 let speed = -5;
+let hands;
 
 function preload() {
-	clouds = loadImage('assets/superMarioClouds_0.png');
+	clouds = loadImage('assets/clouds.png');
+	hands = loadImage('assets/hand.png')
 }
 
 function setup() {
@@ -15,6 +17,7 @@ function draw() {
 	background(200);
 	image(clouds, x, 10, clouds.width / 2, clouds.height / 2)
 	move();
+	image(hands, 240, 430);
 }
 
 
