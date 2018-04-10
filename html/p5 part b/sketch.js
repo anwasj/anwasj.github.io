@@ -1,6 +1,6 @@
 let clouds;
 let x = 0;
-let speed = -5;
+let speed = -2;
 let hands;
 
 function preload() {
@@ -17,7 +17,7 @@ function draw() {
 	background(200);
 	image(clouds, x, 10, clouds.width / 2, clouds.height / 2)
 	move();
-	image(hands, 240, 430);
+	image(hands, 220, 390);
 }
 
 
