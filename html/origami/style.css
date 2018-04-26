@@ -59,13 +59,13 @@ h1 {
 }
 
 .left-half {
-  background-color: #c0d6e4;
+  background-color: ##ffe8eb;
   flex: 1;
   padding: 1rem;
 }
 
 .right-half {
-  background-color: #c0d6e4;
+  background-color: ##ffe8eb;
   flex: 1;
   padding: 1rem;
 }
